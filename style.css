@@ -55,7 +55,7 @@ textarea{
 input:focus{
     border-bottom:2px solid #78788c
 }
-p:before{
+p{
     content:attr(type);
     display:block;margin:28px 0 0;
     font-size:14px;
