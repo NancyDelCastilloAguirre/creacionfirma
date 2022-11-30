@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Firma PDF</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="https://bundle.run/buffer@6.0.3"></script>
+    </head>
+    <body>
+        
+        <div class="form">
+            <h3>Formulario Para Firma Digital</h3>
+
+            <hr>
+            
+                <label>Nombre:</label>
+                <br>
+                <input class="int" id="nombre">
+
+                <br><br>
+
+                <label>Mensage:</label>
+                <br>
+                <textarea id="mensaje"></textarea>
+
+                <br><br>
+
+                <label></label>
+                <input type="submit" id="enviar" class="btn-fim">
+                <br>
+                <br>
+                <a href="https://nancydelcastilloaguirre.github.io/val1firma/" class="btn-fim">comprobar firma</a>
+        </div>
+        
+        <script type="module" src="inicio.js"></script>
+    </body>
+</html>
