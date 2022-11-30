@@ -51,7 +51,7 @@ textarea{
         sans-serif;
     transition:all .3s;
     border-bottom:2px solid #bebed2
-
+}
 input:focus{
     border-bottom:2px solid #78788c
 }
